@@ -1,0 +1,15 @@
+agent:
+  id: ag_cxaoex
+  name: vishal
+build:
+  image: vishal0255/rentoporusvideosdk:1.0.1
+deploy:
+  id: dep_ik9iwi
+  version: v_1s90wc
+  replicas:
+    min: 0
+    max: 3
+  profile: cpu-small
+  region: us002
+secrets:
+  env: 023f345a-d88d-4aaa-9072-ea549c6fab34
