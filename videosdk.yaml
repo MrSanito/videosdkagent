@@ -2,10 +2,10 @@ agent:
   id: ag_cxaoex
   name: vishal
 build:
-  image: vishal0255/rentoporusvideosdk:1.1.2
+  image: vishal0255/rentoporusvideosdk:1.1.6
 deploy:
   id: dep_ik9iwi
-  version: v_gjpgj7
+  version: v_o2gx2a
   replicas:
     min: 0
     max: 3
